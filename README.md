@@ -5,7 +5,7 @@ A versatile Python-based MongoDB backup solution that offers both a graphical us
 ## Screenshot
 
 ![Banner](https://github.com/darkwaves-ofc/MongoDB-Backup-Script/blob/94d60bc91a3dda54ded0e5b4583f43b15b197651/screenshot/image.png)
-![Banner2](https://github.com/darkwaves-ofc/MongoDB-Backup-Script/blob/94d60bc91a3dda54ded0e5b4583f43b15b197651/screenshot/image2.png)
+![Banner2](https://github.com/darkwaves-ofc/MongoDB-Backup-Script/blob/96c9faddd2423e56f5a2f7478a52f3ed29eddf0e/screenshot/image2.png)
 
 ## Features
 - **Command-line interface**: Allows you to specify MongoDB URI, databases to back up, and other configurations.
