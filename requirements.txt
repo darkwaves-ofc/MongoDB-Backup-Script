@@ -1,0 +1,4 @@
+# requirements.txt
+pymongo==4.6.1
+tkinter
+pyinstaller==6.3.0
