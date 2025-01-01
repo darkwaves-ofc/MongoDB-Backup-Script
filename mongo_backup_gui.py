@@ -8,13 +8,18 @@ from tkinter import ttk, filedialog, messagebox
 from pymongo import MongoClient
 import threading
 
+try:
+    from version import VERSION
+except ImportError:
+    VERSION = "development"
+
 class MongoBackupGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("MongoDB Backup Tool")
         self.root.geometry("600x500")
         self.root.resizable(True, True)
-        
+        self.root.title(f"MongoDB Backup Tool v{VERSION}")
         # Configure logging
         logging.basicConfig(level=logging.INFO)
         self.logger = logging.getLogger(__name__)
