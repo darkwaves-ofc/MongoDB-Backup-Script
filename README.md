@@ -3,6 +3,10 @@
 
 This Python script allows you to back up MongoDB databases to JSON files. It exports all collections from specified MongoDB databases into JSON format using `mongoexport` and processes them into readable files.
 
+## Screemshot
+
+![Banner](https://github.com/darkwaves-ofc/MongoDB-Backup-Script/blob/94d60bc91a3dda54ded0e5b4583f43b15b197651/screenshot/image.png)
+
 ## Features
 - **Command-line interface**: Allows you to specify MongoDB URI, databases to back up, and other configurations.
 - **Database Export**: Exports collections from specified MongoDB databases into `.json` files.
